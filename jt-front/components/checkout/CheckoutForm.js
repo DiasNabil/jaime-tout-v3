@@ -8,12 +8,11 @@ import {
     useStripe,
     useElements
 } from "@stripe/react-stripe-js";
-import axios from "axios";
+
 import { useRouter } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 
 
-const domainUrl = process.env.NEXT_PUBLIC_DOMAIN
 
 export default function CheckoutFom({lists}){
     const stripe = useStripe();

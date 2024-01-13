@@ -6,8 +6,9 @@ import Nav from "@/components/Nav";
 
 
 export const metadata = {
-  title: "J'aime tous marketplace ",
-  description: '',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_DOMAIN),
+  title: "J'aime tout marketplace ",
+  description: 'Votre supermarché à portée de clic, parcourez nos rayons virtuels et remplissez votre panier en toute simplicité.',
 }
 
 export default function RootLayout({ children }) {

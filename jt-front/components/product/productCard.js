@@ -122,7 +122,7 @@ const ProductCard = forwardRef(({product}, ref)=>{
                         }
                     </Chip> 
                     {
-                        prod.promo !== null && 
+                        prod.promo !== 0 && 
                         <Chip 
                         color="primary" 
                         variant="shadow"

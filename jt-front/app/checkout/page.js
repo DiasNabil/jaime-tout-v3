@@ -7,7 +7,7 @@ import { Fragment, useContext, useEffect, useState } from 'react';
 import { Accordion, AccordionItem, Card, CardBody, CardHeader, Divider, Image, Skeleton } from '@nextui-org/react';
 import formatPrice from '@/utils/formatPrice.mjs';
 import { client } from '@/utils/client.mjs';
-import { useRouter } from 'next/navigation';
+
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
 const domainUrl = process.env.NEXT_PUBLIC_DOMAIN
