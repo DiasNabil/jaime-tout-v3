@@ -13,7 +13,7 @@ export default function Footer() {
 
     const link = [
         'https://www.facebook.com/Nassurprsdnt94/photos/a.109807598012356/178694964456952/',
-        'https://wa.me/2694371400'
+        'https://wa.me/2693471400'
     ]
     return ( 
         <footer className=" flex flex-col ">
