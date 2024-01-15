@@ -40,7 +40,7 @@ export default function Template({children}){
 
     return (
         <section>
-            <Card className="container">
+            <Card className="container overflow-y-auto">
 
                 <Navbar isBordered>
                 <NavbarContent justify="start">
