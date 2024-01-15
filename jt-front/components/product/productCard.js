@@ -117,8 +117,7 @@ const ProductCard = forwardRef(({product}, ref)=>{
                     >
                         <span className="font-bold">KMF </span> 
                         {
-                            prod.promo !== 0 ? 
-                            formatPrice(prod.promo) : formatPrice(prod.price)
+                            formatPrice(prod.unitPrice) 
                         }
                     </Chip> 
                     {
