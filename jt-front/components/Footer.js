@@ -12,7 +12,7 @@ import { ImFacebook2 ,ImWhatsapp } from "react-icons/im";
 export default function Footer() {
 
     const link = [
-        'https://www.facebook.com/Nassurprsdnt94/photos/a.109807598012356/178694964456952/',
+        'https://www.facebook.com/Nassurprsdnt94/',
         'https://wa.me/2693471400'
     ]
     return ( 
